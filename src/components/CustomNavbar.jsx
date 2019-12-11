@@ -1,6 +1,13 @@
 import React, { Component } from "react";
-import { Link ,NavLink} from "react-router-dom";
-import { Navbar, Nav, NavItem ,Form,FormControl,Button} from "react-bootstrap";
+import { Link, NavLink } from "react-router-dom";
+import {
+  Navbar,
+  Nav,
+  NavItem,
+  Form,
+  FormControl,
+  Button
+} from "react-bootstrap";
 
 class CustomNavbar extends Component {
   state = {};
@@ -14,7 +21,7 @@ class CustomNavbar extends Component {
           <Nav.Link as={NavLink} to="/" exact>
             Home
           </Nav.Link>
-          <Nav.Link as={NavLink} to='/about'>
+          <Nav.Link as={NavLink} to="/about">
             About
           </Nav.Link>
           <Nav.Link as={NavLink} to="/news">
@@ -23,9 +30,9 @@ class CustomNavbar extends Component {
         </Nav>
 
         <Form inline>
-      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-      <Button variant="outline-info">Search</Button>
-    </Form>
+          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+          <Button variant="outline-info">Search</Button>
+        </Form>
       </Navbar>
     );
   }
