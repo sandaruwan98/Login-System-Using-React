@@ -19,24 +19,36 @@ class Home extends Component {
 
         <Row className="show-grid text-center">
           <Col xs={12} sm={3} className="person-wrapper">
-            <Image src="assets/p1.jpg"  className="profile-pic" />
+            <Image src="assets/p1.jpg" className="profile-pic" />
             <h3>Dani</h3>
-            <p>Here we're limited by the time we have. Now then, let's play. Don't be afraid to make these big decisions. </p>
+            <p>
+              Here we're limited by the time we have. Now then, let's play.
+              Don't be afraid to make these big decisions.{" "}
+            </p>
           </Col>
           <Col xs={12} sm={3} className="person-wrapper">
-            <Image src="assets/p2.jpg"  className="profile-pic" />
+            <Image src="assets/p2.jpg" className="profile-pic" />
             <h3>Mark</h3>
-            <p>Here we're limited by the time we have. Now then, let's play. Don't be afraid to make these big decisions. </p>
+            <p>
+              Here we're limited by the time we have. Now then, let's play.
+              Don't be afraid to make these big decisions.{" "}
+            </p>
           </Col>
           <Col xs={12} sm={3} className="person-wrapper">
-            <Image src="assets/p3.jpg"  className="profile-pic" />
-            <h3>Dani</h3>
-            <p>Here we're limited by the time we have. Now then, let's play. Don't be afraid to make these big decisions. </p>
+            <Image src="assets/p3.jpg" className="profile-pic" />
+            <h3>Daisy</h3>
+            <p>
+              Here we're limited by the time we have. Now then, let's play.
+              Don't be afraid to make these big decisions.{" "}
+            </p>
           </Col>
           <Col xs={12} sm={3} className="person-wrapper">
-            <Image src="assets/p4.jpg"  className="profile-pic" />
+            <Image src="assets/p4.jpg" className="profile-pic" />
             <h3>Stacy</h3>
-            <p>Here we're limited by the time we have. Now then, let's play. Don't be afraid to make these big decisions. </p>
+            <p>
+              Here we're limited by the time we have. Now then, let's play.
+              Don't be afraid to make these big decisions.{" "}
+            </p>
           </Col>
         </Row>
       </div>
