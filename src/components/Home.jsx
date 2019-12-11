@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Jumbotron, Grid, Row, Col, Image, Button } from "react-bootstrap";
+import {Container} from 'react-bootstrap';
+import { Jumbotron, Row, Col, Image, Button } from "react-bootstrap";
 import "./Home.css";
 
 class Home extends Component {
@@ -11,10 +12,14 @@ class Home extends Component {
         <Jumbotron>
           <h2>Welcome to React</h2>
           <p>React is Awesome,React router & Bootstrap</p>
-        </Jumbotron>
-        <Link to="/about">
+          <Link to="/about">
           <Button bsStyle="primary">About</Button>
         </Link>
+        </Jumbotron>
+        <Container>
+         
+        </Container>
+        
       </div>
     );
   }
